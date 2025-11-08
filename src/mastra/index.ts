@@ -5,4 +5,5 @@ import { weatherAgent } from './agents';
 export const mastra = new Mastra({
   workflows: { weatherWorkflow },
   agents: { weatherAgent },
+  memory: false,
 });
